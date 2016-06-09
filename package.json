@@ -1,0 +1,26 @@
+{
+  "name": "dev-block-loader",
+  "version": "1.0.2",
+  "description": "Removes dev code from files before compilation",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint ./ -c .eslintrc.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dstgermain/dev-block-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "dev",
+    "remove"
+  ],
+  "author": "Daniel St-Germain",
+  "devDependencies": {
+    "cli-color": "^1.1.0",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-config-ctct": "^1.1.0",
+    "eslint-plugin-import": "^1.8.1"
+  }
+}
